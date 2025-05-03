@@ -43,7 +43,6 @@
                 line-height: 1.2
                 color: #232f4285
             .add
-
                 input
                     border: 1px solid #e1e1e1
                     background-color: #e9e9e9
@@ -57,35 +56,47 @@
         margin-top: 50px
     @media ( max-width: 992px )
         .box
-           
+            display: flex
+            text-align: left
             .textbox
                 h2
-                   
+                    font-size: 22px
         .menu
             flex-direction: column
+            display: flex
+            flex-flow: row nowrap
     @media ( max-width: 768px )
         .menu
             justify-content: center
             display: flex
+            flex-flow: row wrap
             .btn
-               
-
+                padding: 18px 55px
         .box
             flex-wrap: wrap
+            display: flex
+            flex-direction: row
+            text-align: left
             .imgbox
-                
+                width: auto
             .textbox
-             
                 .minibox
                     flex-direction: column
                     h2
-                       
+                        font-size: 20px
+                        margin: 10px 0
                 .add
                     input
-                     
+                        width: 40px
+
     @media ( max-width: 490px )
         .menu
+            display: flex
             flex-direction: column
         .box
+            background-color: #ffff
+            display: flex
+            flex-direction: column
+            text-align: center
             .imgbox
-                
+                width: auto
