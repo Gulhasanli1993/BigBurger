@@ -107,18 +107,16 @@ header .menu .buttons .shop {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: left;
+    text-align: center;
   }
   #beautiful .box h5 {
-    margin: 25px 75px 50px 0;
+    font-size: 20px;
   }
   #beautiful .box .btn {
-    padding: 13px 30px;
-    width: 250px;
-    margin-left: 0;
+    width: 60%;
   }
   #beautiful .box .imgbox {
-    margin: 10px 0 10px;
+    width: auto;
   }
   #beautiful .box h4 {
     font-size: 22px;
@@ -142,17 +140,17 @@ header .menu .buttons .shop {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
   }
   #beautiful .box h1 {
-    font-size: 48px;
+    font-size: 40px;
   }
   #beautiful .box h5 {
-    margin: 25px 0 50px;
+    font-size: 18px;
   }
   #beautiful .box .btn {
-    width: 200px;
-    margin: 0 auto;
-    margin-bottom: 15px;
+    font-size: 16px;
+    padding: 8px 16px;
   }
 }
 
@@ -188,15 +186,15 @@ header .menu .buttons .shop {
 @media (max-width: 992px) {
   #thehome .textbox {
     display: flex;
-    text-align: left;
+    text-align: center;
+    flex-direction: column;
   }
   #thehome .textbox .btn {
-    padding: 13px 30px;
-    width: 250px;
     margin-left: 0;
+    padding: 10px 25px;
   }
   #thehome .imgbox {
-    width: 520px;
+    width: auto;
   }
 }
 @media (max-width: 430px) {
@@ -204,6 +202,7 @@ header .menu .buttons .shop {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
   }
   #thehome .textbox h1 {
     font-size: 45px;
@@ -212,9 +211,9 @@ header .menu .buttons .shop {
     margin: 25px 0 50px;
   }
   #thehome .textbox .btn {
-    width: 200px;
     margin: 0 auto;
-    margin-bottom: 50px;
+    font-size: 16px;
+    padding: 8px 16px;
   }
 }
 
@@ -243,13 +242,15 @@ header .menu .buttons .shop {
 @media (max-width: 992px) {
   #works .box {
     display: flex;
+    flex-direction: column;
     text-align: center;
+    align-items: center;
   }
   #works .box .textbox {
     padding: 15px 45px;
   }
   #works .box .imgbox {
-    width: 350px;
+    width: auto;
   }
 }
 @media (max-width: 768px) {
@@ -260,7 +261,7 @@ header .menu .buttons .shop {
     align-items: center;
   }
   #works .box .imgbox {
-    width: 350px;
+    width: 300px;
   }
 }
 @media (max-width: 430px) {
@@ -275,6 +276,9 @@ header .menu .buttons .shop {
   }
   #works .box .textbox {
     padding: 10px 35px;
+  }
+  #works .box .textbox h1 {
+    font-size: 40px;
   }
   #works .box .textbox h2 {
     font-size: 20px;
@@ -436,6 +440,7 @@ header .menu .buttons .shop {
   #order .textbox {
     display: flex;
     text-align: center;
+    flex-direction: column;
   }
 }
 @media (max-width: 768px) {
@@ -443,9 +448,10 @@ header .menu .buttons .shop {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
   }
   #order .textbox h1, #order .textbox h5 {
-    margin: 30px 0 55px;
+    margin: 25px 0 50px;
   }
 }
 @media (max-width: 440px) {
@@ -453,15 +459,18 @@ header .menu .buttons .shop {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
   }
   #order .textbox h1 {
-    font-size: 40px;
+    font-size: 45px;
   }
   #order .textbox h5 {
-    margin: 25px 0 50px;
+    margin: 20px 0 50px;
   }
   #order .textbox .btn {
     margin: 0 auto;
+    font-size: 16px;
+    padding: 8px 16px;
   }
 }
 
@@ -492,7 +501,8 @@ header .menu .buttons .shop {
 @media (max-width: 992px) {
   #callour .textbox {
     display: flex;
-    text-align: left;
+    text-align: center;
+    flex-direction: column;
   }
 }
 @media (max-width: 768px) {
@@ -500,9 +510,10 @@ header .menu .buttons .shop {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
   }
   #callour .textbox h1, #callour .textbox h5 {
-    margin: 30px 0 55px;
+    margin: 25px 0 50px;
   }
 }
 @media (max-width: 440px) {
@@ -510,16 +521,19 @@ header .menu .buttons .shop {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
   }
   #callour .textbox h1 {
     font-size: 40px;
   }
   #callour .textbox h5 {
-    margin: 25px 0 50px;
+    margin: 20px 0 50px;
   }
   #callour .textbox .btn {
     margin: 0 auto;
     margin-bottom: 80px;
+    font-size: 16px;
+    padding: 8px 16px;
   }
   #callour .imgbox {
     width: auto;
@@ -552,7 +566,7 @@ header .menu .buttons .shop {
   #support .imgbox {
     margin-bottom: 10px;
     width: auto;
-    height: 500px;
+    height: auto;
   }
   #support .textbox {
     width: auto;
