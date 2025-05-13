@@ -120,6 +120,7 @@ header .menu .buttons .shop {
   }
   #beautiful .box h4 {
     font-size: 22px;
+    margin-bottom: 15px;
   }
 }
 @media (max-width: 768px) {
@@ -127,12 +128,13 @@ header .menu .buttons .shop {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: 0;
   }
   #beautiful .box h5 {
     margin: 25px 0 50px;
   }
   #beautiful .box .btn {
-    margin: 0 auto;
+    margin: 40px 0 40px 0;
   }
 }
 @media (max-width: 430px) {
@@ -141,6 +143,7 @@ header .menu .buttons .shop {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    margin: 0;
   }
   #beautiful .box h1 {
     font-size: 40px;
@@ -151,6 +154,7 @@ header .menu .buttons .shop {
   #beautiful .box .btn {
     font-size: 16px;
     padding: 8px 16px;
+    margin: 40px 0 40px 0;
   }
 }
 
@@ -185,16 +189,15 @@ header .menu .buttons .shop {
 }
 @media (max-width: 992px) {
   #thehome .textbox {
-    display: flex;
     text-align: center;
-    flex-direction: column;
+    margin: 0;
   }
   #thehome .textbox .btn {
-    margin-left: 0;
-    padding: 10px 25px;
+    margin-bottom: 15px;
   }
   #thehome .imgbox {
     width: auto;
+    margin: auto;
   }
 }
 @media (max-width: 430px) {
@@ -211,7 +214,7 @@ header .menu .buttons .shop {
     margin: 25px 0 50px;
   }
   #thehome .textbox .btn {
-    margin: 0 auto;
+    margin: 0 0 15px;
     font-size: 16px;
     padding: 8px 16px;
   }
@@ -368,6 +371,7 @@ header .menu .buttons .shop {
     flex-direction: column;
     display: flex;
     flex-flow: row nowrap;
+    margin-bottom: 15px;
   }
 }
 @media (max-width: 768px) {
@@ -378,6 +382,7 @@ header .menu .buttons .shop {
   }
   #browse .menu .btn {
     padding: 18px 55px;
+    margin-bottom: 15px;
   }
   #browse .box {
     flex-wrap: wrap;
